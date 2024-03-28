@@ -1,0 +1,49 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+
+/* Table styles */
+table {
+    margin-inline: auto;
+    margin-top: 4rem;
+    width: 80%;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    /* From box shadow generator */
+    box-shadow: 0 0 20px rgba(0, 0, 0.2, 0.2);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 1px solid lightgray;
+}
+
+th:last-child, td:last-child {
+    border-right: none; 
+}
+
+th {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Alternates the background colors for the table rows */
+tbody tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tbody tr:hover {
+    background-color: lightgray;
+}
