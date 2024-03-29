@@ -8,6 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Table styles */
@@ -46,4 +49,19 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
     background-color: lightgray;
+}
+
+/* Button Styles */
+button {
+    background-color: #DCCDF9;
+    border: none;
+    margin: 3rem;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.6);}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.1;
 }

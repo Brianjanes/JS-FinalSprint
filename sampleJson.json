@@ -4,47 +4,42 @@
     "age": 32,
     "city": "St. John's",
     "province": "Newfoundland",
-    "country": "Canada",
     "email": "janes.brian@gmail.com" ,
     "phone": "709-123-4567"
 },
 {
     "_id": 124,
     "name": "John Doe",
-    "age": 45,
+    "age": 34,
     "city": "Toronto",
     "province": "Ontario",
-    "country": "Canada",
     "email": "oldjonnydoe@verizon.net",
     "phone": "416-123-4567"
 },
 {
     "_id": 125,
     "name": "Jane Doe",
-    "age": 43,
+    "age": 31,
     "city": "Toronto",
     "province": "Ontario",
-    "country": "Canada",
     "email": "jane_doe5@gmail.com",
     "phone": "416-123-5678"
 },
 {
     "_id": 126,
     "name": "John Smith",
-    "age": 32,
+    "age": 33,
     "city": "Toronto",
     "province": "Ontario",
-    "country": "Canada",
     "email": "jonny_smith@hotmail.com",
     "phone": "416-123-6789"
 }, 
 {
     "_id": 127,
     "name": "Jane Smith",
-    "age": 32,
+    "age": 27,
     "city": "Toronto",
     "province": "Ontario",
-    "country": "Canada",
     "email": "jane_smith@gmail.com",
     "phone": "416-123-7890" 
 }]
